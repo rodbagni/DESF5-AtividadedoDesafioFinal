@@ -1,0 +1,6 @@
+2025-06-26 01:06:04.312618-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM PEDIDO [*]+ SELECT * FROM CLIENTE"; SQL statement:
+SELECT * FROM PEDIDO + SELECT * FROM CLIENTE [42000-232]
+2025-06-26 01:06:51.220182-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM PEDIDO join [*]SELECT * FROM CLIENTE"; expected "identifier"; SQL statement:
+SELECT * FROM PEDIDO join SELECT * FROM CLIENTE [42001-232]
